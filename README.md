@@ -3,8 +3,10 @@
 ### Motivation
 
 Sometimes there is need to use not corectly prepared **library** or there is need to **wait** for **properties** that will **appear** in some object in not specified time in future.
+
 Using [Proxy](https://developer.mozilla.org/pl/docs/Web/JavaScript/Referencje/Obiekty/Proxy) is **not solving** problem if we are waiting for properties in **window** object for example.
-This function **solves** this problem a little dirt, but **effective** way.
+
+This function **solves** this problem a little dirty, but **effective** way.
 
 ### Install
 ```bash
@@ -26,6 +28,6 @@ waitProp(getGlobal(), 'exampleLib').then(lib => {
 setTimeout(() => {
   getGlobal().exampleLib = {
     exampleMethod: () => []
-  }
+  };
 }, 1e3);
 ```
