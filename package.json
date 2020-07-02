@@ -1,0 +1,28 @@
+{
+  "name": "wait-prop",
+  "version": "0.0.0",
+  "description": "",
+  "main": "lib/main.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "start": "nodemon --ignore './lib' -e ts,json --exec 'npm run build && true'",
+    "build": "tsc",
+    "prepare": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gkucmierz/wait-prop.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gkucmierz/wait-prop/issues"
+  },
+  "homepage": "https://github.com/gkucmierz/wait-prop#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.4",
+    "typescript": "^3.9.5"
+  }
+}
