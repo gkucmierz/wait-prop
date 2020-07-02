@@ -1,7 +1,7 @@
 {
   "name": "wait-prop",
   "version": "0.0.0",
-  "description": "",
+  "description": "Function that helps waiting for properties in object for example loading dependencies in global",
   "main": "lib/main.js",
   "types": "lib/index.d.ts",
   "scripts": {
@@ -14,8 +14,8 @@
     "type": "git",
     "url": "git+https://github.com/gkucmierz/wait-prop.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["wait", "prop", "property", "timeout", "delay", "hack", "dependencies", "promise"],
+  "author": "Grzegorz Kucmierz",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/gkucmierz/wait-prop/issues"
