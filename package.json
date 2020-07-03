@@ -1,6 +1,6 @@
 {
   "name": "wait-prop",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Function that helps waiting for properties in object for example loading dependencies in global",
   "main": "lib/main.js",
   "types": "lib/main.d.ts",
