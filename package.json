@@ -3,7 +3,7 @@
   "version": "1.0.1",
   "description": "Function that helps waiting for properties in object for example loading dependencies in global",
   "main": "lib/main.js",
-  "types": "lib/index.d.ts",
+  "types": "lib/main.d.ts",
   "scripts": {
     "start": "nodemon --ignore './lib' -e ts,json --exec 'npm run build && true'",
     "build": "tsc",
